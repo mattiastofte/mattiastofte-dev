@@ -1,0 +1,37 @@
+{
+  "name": "mattiastoftedev",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@motionone/utils": "^10.15.1",
+    "@react-three/drei": "^9.65.5",
+    "@react-three/fiber": "^8.12.2",
+    "@splinetool/loader": "^0.9.304",
+    "@splinetool/r3f-spline": "^1.0.2",
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.304",
+    "@types/node": "18.15.13",
+    "@types/react": "18.0.37",
+    "@types/react-dom": "18.0.11",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "framer-motion": "^10.12.4",
+    "locomotive-scroll": "^4.1.4",
+    "next": "13.3.0",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-locomotive-scroll": "^0.2.2",
+    "tailwindcss": "3.3.1",
+    "three": "^0.151.3",
+    "typed.js": "^2.0.16",
+    "typescript": "5.0.4"
+  }
+}

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  cursor: none !important;
+}
+
+body {
+    cursor: none !important;
+}
+
+a, link, button {
+  cursor: none !important;
+}
