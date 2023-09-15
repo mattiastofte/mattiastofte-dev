@@ -163,7 +163,7 @@ export default function Home() {
         </p>
         <div className="flex flex-row gap-3">
           <Link
-            href="https://www.linkedin.com/in/mattias-tofte-9b1b3a1b2/"
+            href="https://www.linkedin.com/in/mattiastofte"
             className="w-10 h-10 bg-black rounded-sm items-center justify-center flex"
           >
             <Image
@@ -174,7 +174,7 @@ export default function Home() {
             />
           </Link>
           <Link
-            href="https://www.linkedin.com/in/mattias-tofte-9b1b3a1b2/"
+            href="https://github.com/mattiastofte"
             className="w-10 h-10 bg-black rounded-sm items-center justify-center flex"
           >
             <Image
@@ -185,7 +185,7 @@ export default function Home() {
             />
           </Link>
           <Link
-            href="https://www.linkedin.com/in/mattias-tofte-9b1b3a1b2/"
+            href="https://www.instagram.com/mattiastofte/?hl=en"
             className="w-10 h-10 bg-black rounded-sm items-center justify-center flex"
           >
             <Image
