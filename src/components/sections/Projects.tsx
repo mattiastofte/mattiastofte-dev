@@ -71,7 +71,7 @@ const Project = ({ title, description, tags, number, image }: ProjectProps) => {
         </div>
       </div>
       <Image
-        src={`/images/${image}.png`}
+        src={`/images/${image}.webp`}
         width={4000}
         height={4000}
         alt="project"
