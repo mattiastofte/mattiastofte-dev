@@ -64,7 +64,7 @@ export default function Contact() {
               setButtonHover(true);
             }}
             onMouseLeave={() => setButtonHover(false)}
-            href="/files/CV.txt"
+            href="/files/CV.pdf"
             download
           >
             <motion.div

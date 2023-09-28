@@ -88,6 +88,13 @@ export default function Home() {
     contactRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // smooth scroll
+    });
+  };
+
   useEffect(() => {
     const Typed = require("typed.js");
     new Typed(".animated_title_2", {
@@ -105,10 +112,12 @@ export default function Home() {
   return (
     <div className="bg-white" ref={mainRef}>
       <motion.div
-        className="sticky text-black font-black tracking-wide top-[100px] ml-[8rem] text-2xl"
+        className="sticky text-black font-black tracking-wide top-[100px] ml-[8rem] text-2xl z-10"
         style={{ translateX: scaling * -50 }}
       >
-        Mattias Tofte
+        <button className="z-50" onClick={() => scrollToTop()}>
+          Mattias Tofte
+        </button>
       </motion.div>
       <motion.div
         className="sticky w-2 h-2 bg-black rounded-full left-[6.8rem] top-[112px]"

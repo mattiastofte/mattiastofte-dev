@@ -63,7 +63,7 @@ const Project = ({ title, description, tags, number, image }: ProjectProps) => {
           {tags.map((tag, index) => (
             <p
               key={index}
-              className="text-base text-white bg-black px-3 pt-1 h-[35px] "
+              className="text-base text-white bg-black px-3 pt-1 h-[35px] rounded-sm"
             >
               {tag}
             </p>
