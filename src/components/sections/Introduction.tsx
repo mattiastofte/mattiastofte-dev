@@ -52,8 +52,8 @@ export default function Introduction() {
 
   return (
     <div className="bg-white">
-      <div className="w-full flex flex-row px-[8rem]">
-        <div className="w-2/3 flex flex-col pr-20 text-black">
+      <div className="w-full flex flex-row px-[8rem] justify-between">
+        <div className="w-7/12 flex flex-col pr-20 text-black">
           <p
             className="font-circular-std font-regular text-2xl leading-[3rem] mt-10"
             data-scroll
@@ -66,15 +66,15 @@ export default function Introduction() {
           </p>
         </div>
         <div
-          className="w-1/3 flex flex-row items-center justify-end mr-1"
+          className="w-5/12 flex flex-row items-center justify-end mr-1"
           data-scroll
         >
           <Image
-            src="/images/mattias.webp"
+            src="/images/me.png"
             width={500}
             height={500}
             alt="me"
-            className="max-w-[400px] rounded-sm"
+            className="max-w-[400px] rounded-sm translate-y-[-70px]"
           />
         </div>
       </div>
