@@ -48,7 +48,7 @@ export default function Bigraphy() {
             more professional degree
           </p>
           <Image
-            src="/images/small.jpg"
+            src="/images/studio.jpg"
             width={800}
             height={800}
             alt="me"
