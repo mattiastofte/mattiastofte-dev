@@ -48,10 +48,10 @@ export default function Bigraphy() {
             more professional degree
           </p>
           <Image
-            src="/images/studio.jpg"
+            src="/images/studio.png"
             width={800}
             height={800}
-            alt="me"
+            alt="studio"
             className="my-8 rounded-sm"
           />
           <p className="text-3xl mt-10 leading-[4rem]">
